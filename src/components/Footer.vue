@@ -1,8 +1,7 @@
 <template>
   <footer>
     this app was built to practice learning a new framework / library in a
-    self-guided way. Also, I am currently learning react.js, and will probably
-    continue to practice replicating what I create in react, in vue as well
+    self-guided way alongside learning react
   </footer>
 </template>
 <script>
