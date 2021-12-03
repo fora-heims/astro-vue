@@ -2,15 +2,22 @@
   <div class="hello">
     <Header name="astro-vue" />
     <h1>{{ msg }}</h1>
+    <Main thing="0" />
+    <Footer nam="basries" />
   </div>
 </template>
 
 <script>
 import Header from "./Header.vue";
+import Main from "./Main.vue";
+import Footer from "./Footer.vue";
+
 export default {
   name: "HelloWorld",
   components: {
     Header,
+    Main,
+    Footer,
   },
   props: {
     msg: String,

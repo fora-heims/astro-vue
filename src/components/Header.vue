@@ -1,16 +1,14 @@
 <template>
-  <div class="header">{{ name }}</div>
+  <header>astro-vue</header>
 </template>
 <script>
 export default {
   name: "Header",
-  props: {
-    name: String,
-  },
+  props: {},
 };
 </script>
 <style>
-.header {
+header {
   background-color: #8b9eb7dd;
   color: #91f5ad;
   position: fixed;
